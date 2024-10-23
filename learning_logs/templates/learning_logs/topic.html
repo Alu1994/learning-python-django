@@ -1,7 +1,9 @@
 {% extends "learning_logs/base.html" %}
 
 {%block content%}
-    <h3>Tópicos: {{ topic }}</h3>
+    <p>Tópicos: {{ topic }}</p>
+    <p>Anotações:</p>
+    <p><a href="{% url 'new-entry' topic.id %}">Adicione uma nova anotação</a></p>
     <p>
         <ul>
             {% for entry in entries %}
