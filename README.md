@@ -33,6 +33,12 @@ pip freeze
 pip freeze > requirements.txt
 ```
 
+### - Install requirements file with dependencies
+Ex: 
+```shell
+pip install -r requirements.txt
+```
+
 ### - Finalizes virtual env
 ```shell
 deactivate
