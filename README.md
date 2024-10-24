@@ -40,3 +40,18 @@ django-admin --version
 ```shell
 django-admin startproject (project_name) .
 ```
+
+### - create migrations
+```shell
+python manage.py makemigrations learning_logs
+```
+
+### - apply migrations
+```shell
+python manage.py migrate
+```
+
+### - enter shell
+```shell
+python manage.py shell
+```
