@@ -2,17 +2,17 @@
 
 ## helpfull comands
 
-### - executes/run project
+### - Executes/run project
 ```shell
 python manage.py runserver
 ```
 
-### - install virtual env
+### - Install virtual env
 ```shell
 pip install virtualenv
 ```
 
-### - creates virtual env
+### - Creates virtual env
 ```shell
 python -m venv (env_name)
 ```
@@ -39,32 +39,32 @@ pip install -r requirements.txt
 deactivate
 ```
 
-### - install django
+### - Install django
 ```shell
 pip install Django
 ```
 
-### - check django version
+### - Check django version
 ```shell
 django-admin --version
 ```
 
-### - create new django project
+### - Create new django project
 ```shell
 django-admin startproject (project_name) .
 ```
 
-### - create migrations
+### - Create migrations
 ```shell
 python manage.py makemigrations learning_logs
 ```
 
-### - apply migrations
+### - Apply migrations
 ```shell
 python manage.py migrate
 ```
 
-### - enter shell
+### - Enter shell
 ```shell
 python manage.py shell
 ```
