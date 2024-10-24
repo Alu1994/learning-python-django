@@ -20,9 +20,8 @@ python -m venv (env_name)
 ```
 
 ### - Initializes virtual env
-- (executable) (path_to_file)
-Ex: 
 ```shell
+# - (executable) (path_to_file)
 . ll_env/Scripts/activate
 ```
 
