@@ -9,6 +9,11 @@ learning-python-django
 python manage.py runserver
 ```
 
+### - install virtual env
+```shell
+pip install virtualenv
+```
+
 ### - creates virtual env
 ```shell
 python -m venv (env_name)
