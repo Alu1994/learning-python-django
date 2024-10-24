@@ -26,6 +26,13 @@ Ex:
 . ll_env/Scripts/activate
 ```
 
+### - Generates requirements file with dependencies
+Ex: 
+```shell
+pip freeze
+pip freeze > requirements.txt
+```
+
 ### - Finalizes virtual env
 ```shell
 deactivate
