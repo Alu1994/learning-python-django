@@ -1,6 +1,4 @@
 # learning-python-django
-learning-python-django
-
 
 ## helpfull comands
 
