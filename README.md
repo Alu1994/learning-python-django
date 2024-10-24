@@ -26,14 +26,12 @@ python -m venv (env_name)
 ```
 
 ### - Generates requirements file with dependencies
-Ex: 
 ```shell
 pip freeze
 pip freeze > requirements.txt
 ```
 
 ### - Install requirements file with dependencies
-Ex: 
 ```shell
 pip install -r requirements.txt
 ```
